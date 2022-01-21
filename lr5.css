@@ -1,0 +1,63 @@
+.moon{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: khaki;
+	left: 0;
+	margin-top: 800px;
+	position: relative;
+	display: flex;
+	animation-name: run_moon;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+body{
+	background-color: #1d3d4e;
+}
+.moon_2{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	left: 0;
+	background-color: #1d3d4e;
+	position: absolute;
+	display: flex;
+}
+
+@keyframes run_moon{
+	0%{
+		left: 0;
+	}
+
+	20%{
+		left: 400px;
+		margin-top: 300px;
+
+	}
+	35%{
+		left: 500px;
+		margin-top: 200px;
+
+	}
+	50%{
+			left: 700px;
+		margin-top: 100px;
+
+	}
+	65%{
+		left: 800px;
+		margin-top: 200px;
+
+	}
+	80%{
+			left: 900px;
+		margin-top: 300px;
+	}
+	
+	
+	100%{
+		left: 1000px;
+		margin-top: 800px;
+	}
+}
